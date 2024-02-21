@@ -60,3 +60,24 @@ const weve = function(){
 
 }
 
+//funciones (ARROW FUNCTION)
+//1. SIN PARAMETROS
+//2. PARAMETRO
+//3. 2 O MAS PARAMETRO
+// DECLARAR5 5 COMO MINIMO LET Y CONST
+
+
+let nombre;
+let perro;
+let carro;
+let moto;
+const edad =20;
+
+let nombre="sam";
+let perro = "salchicha";
+let carro ="camaro"
+let moto= "bmw s100rr"
+
+const Mmoto = moto=>{
+
+}

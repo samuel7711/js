@@ -65,19 +65,19 @@ const weve = function(){
 //2. PARAMETRO
 //3. 2 O MAS PARAMETRO
 // DECLARAR5 5 COMO MINIMO LET Y CONST
+// integrar con llamado a funciones y mostrar resultados
 
 
-let nombre;
-let perro;
-let carro;
-let moto;
 const edad =20;
 
-let nombre="sam";
+let nombre ="sam";
+
 let perro = "salchicha";
-let carro ="camaro"
-let moto= "bmw s100rr"
 
-const Mmoto = moto=>{
+let carro ="camaro";
 
+let moto= "bmw s100rr";
+
+const Mmoto = (moto,nombre)=>{
+    return "hola mi nombre es "+ nombre + " mi moto favorita es " +moto
 }

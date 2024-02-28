@@ -81,3 +81,9 @@ let moto= "bmw s100rr";
 const Mmoto = (moto,nombre)=>{
     return "hola mi nombre es "+ nombre + " mi moto favorita es " +moto
 }
+
+const dia =(nombre)=>{
+    return "hola soy "+ nombre +" el dia de hoy es jueves"
+}
+
+console.log(nombre("tomas"));

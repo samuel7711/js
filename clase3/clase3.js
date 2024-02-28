@@ -86,4 +86,8 @@ const dia =(nombre)=>{
     return "hola soy "+ nombre +" el dia de hoy es jueves"
 }
 
+const viaje =(nombre,moto,carro)=> {
+    return "hola soy " + nombre+ "voy a salir con mi familia mi moto que es una "+ moto+" y en mi carro que es un " + carro
+}
+
 console.log(nombre("tomas"));
